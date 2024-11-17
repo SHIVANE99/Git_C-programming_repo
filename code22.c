@@ -19,6 +19,7 @@ struct student {
 };
 void student1();
 void student2();
+void student3();
 int main(){
     int n;
     printf("which student information you want to access :");
@@ -29,7 +30,9 @@ int main(){
     else if(n==2){
         student2();
     }
-    
+    else if(n==3){
+        student3();
+    }
 
     
         
@@ -61,7 +64,7 @@ void student1(){
     printf("physics marks of student 1 :%f\n",s1.physicsMarks);
     printf("chemistry marks of student 1 :%f\n",s1.chemistryMarks);
     printf("rank of student 1 :%d\n",s1.rank);
-    printf("fee waiver of student 1 :%f\n",s1.basefee-(100.0/100.0*s1.basefee));
+    printf("fee waiver for student 1 :%f\n",s1.basefee-(100.0/100.0*s1.basefee));
 
 }
 void student2(){
@@ -87,5 +90,30 @@ void student2(){
     printf("physics marks of student 2 :%f\n",s2.physicsMarks);
     printf("chemistry marks of student 2 :%f\n",s2.chemistryMarks);
     printf("rank of student 2 :%d\n",s2.rank);
-    printf("fee waiver of student 2 :%f\n",s2.basefee-(75.0/100.0*s2.basefee));
+    printf("fee waiver for student 2 :%f\n",s2.basefee-(75.0/100.0*s2.basefee));
+}
+void student3(){
+    struct student s3;
+    strcpy(s3.name,"MOHAN");
+    strcpy(s3.address,"Talab Tillo");
+    s3.phoneNumber=923193323;
+    strcpy(s3.email,"mohan@gmail.com");
+    s3.rollNumber=103;
+    s3.cProgMarks=82;
+    s3.mathsMarks=85;
+    s3.physicsMarks=80;
+    s3.chemistryMarks=75;
+    s3.rank=3;
+    s3.basefee=1000;
+    printf("Name of student 3 :%s\n",s3.name);
+    printf("Roll number of student 3 :%d\n",s3.rollNumber);
+    printf("address of student 3 :%s\n",s3.address);
+    printf("phone number of student 3 :%d\n",s3.phoneNumber);
+    printf("email of student 3 :%s\n",s3.email);
+    printf("c prog marks of student 3 :%f\n",s3.cProgMarks);
+    printf("Maths marks of student 3 :%f\n",s3.mathsMarks);
+    printf("physics marks of student 3 :%f\n",s3.physicsMarks);
+    printf("chemistry marks of student 3 :%f\n",s3.chemistryMarks);
+    printf("rank of student 3 :%d\n",s3.rank);
+    printf("fee waiver for student 3 :%f\n",s3.basefee-(50.0/100.0*s3.basefee));
 }
