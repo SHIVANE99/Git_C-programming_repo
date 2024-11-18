@@ -22,7 +22,8 @@ void student2();
 void student3();
 int main(){
     int n;
-    printf("which student information you want to access :");
+    char req;
+    printf("which student information you want to access(1,2,3)---> :");
     scanf("%d",&n);
     if(n==1){
         student1();
@@ -33,12 +34,7 @@ int main(){
     else if(n==3){
         student3();
     }
-
     
-        
-
-        
-
     
 }
 void student1(){
