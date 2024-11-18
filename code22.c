@@ -60,7 +60,7 @@ void student1(){
     printf("physics marks of student 1 :%f\n",s1.physicsMarks);
     printf("chemistry marks of student 1 :%f\n",s1.chemistryMarks);
     printf("rank of student 1 :%d\n",s1.rank);
-    printf("fee waiver for student 1 :%f\n",s1.basefee-(100.0/100.0*s1.basefee));
+    printf("Updated fee for student 1 :%f\n",s1.basefee-(100.0/100.0*s1.basefee));
 
 }
 void student2(){
@@ -86,7 +86,7 @@ void student2(){
     printf("physics marks of student 2 :%f\n",s2.physicsMarks);
     printf("chemistry marks of student 2 :%f\n",s2.chemistryMarks);
     printf("rank of student 2 :%d\n",s2.rank);
-    printf("fee waiver for student 2 :%f\n",s2.basefee-(75.0/100.0*s2.basefee));
+    printf("Updated fee for student 2 :%f\n",s2.basefee-(75.0/100.0*s2.basefee));
 }
 void student3(){
     struct student s3;
@@ -111,5 +111,5 @@ void student3(){
     printf("physics marks of student 3 :%f\n",s3.physicsMarks);
     printf("chemistry marks of student 3 :%f\n",s3.chemistryMarks);
     printf("rank of student 3 :%d\n",s3.rank);
-    printf("fee waiver for student 3 :%f\n",s3.basefee-(50.0/100.0*s3.basefee));
+    printf("Updated fee for student 3 :%f\n",s3.basefee-(50.0/100.0*s3.basefee));
 }
