@@ -79,5 +79,5 @@ void displayStudentInfo(struct student s) {
     } else if (s.rank == 3) {
         feeWaiver = s.basefee -(50.0 / 100.0) * s.basefee;
     }
-    printf("Fee waiver for student: %.2f\n", feeWaiver);
+    printf("Updated Fee  for student: %.2f\n", feeWaiver);
 }
