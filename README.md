@@ -1,4 +1,4 @@
-starting c programming in github
+starting c programming on github
 <br>
 author-Shivane Padha
 <br>
