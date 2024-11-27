@@ -1,28 +1,17 @@
 #include <stdio.h>
-int main() {
-
-  int i, n;
-
-  // initialize first and second terms
-  int t1 = 0, t2 = 1;
-
-  // initialize the next term (3rd term)
-  int nextTerm = t1 + t2;
-
-  // get no. of terms from user
-  printf("Enter the number of terms: ");
-  scanf("%d", &n);
-
-  // print the first two terms t1 and t2
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
-
-  // print 3rd to nth terms
-  for (i = 3; i <= n; ++i) {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
+int main(){
+// printing febonacii series 
+int n,a=0,b=1,c;
+printf("enter the number upto which you want your series :");
+scanf("%d",&n);
+printf("febonacii series");
+  for(int i=1;i<=n;i++){
+  printf(" %d",a);
+  c=a+b;
+  a=b;
+  b=c;
   }
+
 
   return 0;
 }
