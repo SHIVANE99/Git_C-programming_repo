@@ -18,12 +18,5 @@ int main(){
     else{
         printf("not a prime number");
     }
-
-
-
-
-
-
-
     
 }
