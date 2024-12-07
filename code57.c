@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    //switch trickyyy
     int a=65;
     switch(a){
         case 70 : 
