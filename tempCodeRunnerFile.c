@@ -1,6 +1,12 @@
-   char str[50] = {0};
-    scanf("%4s", str);
-    printf(str);
-    getchar();
-    return 0;
+#include<stdio.h>
+int main(){
+    int rows;
+    printf("enter the rows:");
+    scanf("%d",&rows);
+    for(int i=0;i<rows;i++){
+        for(int j=0;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
 }
