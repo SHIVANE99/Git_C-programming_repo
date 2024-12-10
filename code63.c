@@ -31,10 +31,10 @@ int main()
     }
     if (value == n)
     {
-        printf("armstrong number");
+        printf("armsstrong number");
     }
     else
     {
-        printf("not an armstrong number");
+        printf("not an armsstrong number");
     }
 }
