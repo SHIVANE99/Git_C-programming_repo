@@ -1,4 +1,4 @@
-// gcd eucledian
+// gcd and lcm by  eucledian
 #include <stdio.h>
 int main()
 {
@@ -23,6 +23,6 @@ int main()
         rem = numerator % denominator;
     }
     gcd = denominator;
-    printf("gcd of %d & %d is : %d\n", a, b, denominator);
+    printf("gcd of %d & %d is : %d\n", a, b, gcd);
     printf("lcm of %d & %d is : %d", a, b, (a * b) / gcd);
 }
