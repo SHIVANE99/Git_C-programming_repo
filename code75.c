@@ -6,7 +6,7 @@ int main(){
     printf("enter string :");
     fgets(str,100,stdin);
     char *ptr=str;
-    while(ptr!='\0'){
+    while(*ptr!='\0'){
         printf("%c",*ptr);
         count++;
         ptr++;
